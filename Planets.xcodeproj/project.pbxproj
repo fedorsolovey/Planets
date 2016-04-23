@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D04483261CCB968200A86F70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D04483251CCB968200A86F70 /* main.m */; };
+		D04483291CCB968200A86F70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D04483281CCB968200A86F70 /* AppDelegate.m */; };
+		D044832C1CCB968200A86F70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D044832B1CCB968200A86F70 /* ViewController.m */; };
+		D044832F1CCB968200A86F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D044832D1CCB968200A86F70 /* Main.storyboard */; };
+		D04483321CCB968200A86F70 /* Planets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D04483301CCB968200A86F70 /* Planets.xcdatamodeld */; };
+		D04483341CCB968300A86F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04483331CCB968300A86F70 /* Assets.xcassets */; };
+		D04483371CCB968300A86F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04483351CCB968300A86F70 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D04483211CCB968200A86F70 /* Planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04483251CCB968200A86F70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D04483271CCB968200A86F70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D04483281CCB968200A86F70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D044832A1CCB968200A86F70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D044832B1CCB968200A86F70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D044832E1CCB968200A86F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D04483311CCB968200A86F70 /* Planets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Planets.xcdatamodel; sourceTree = "<group>"; };
+		D04483331CCB968300A86F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D04483361CCB968300A86F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D04483381CCB968300A86F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D044831E1CCB968200A86F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D04483181CCB968200A86F70 = {
+			isa = PBXGroup;
+			children = (
+				D04483231CCB968200A86F70 /* Planets */,
+				D04483221CCB968200A86F70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D04483221CCB968200A86F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D04483211CCB968200A86F70 /* Planets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D04483231CCB968200A86F70 /* Planets */ = {
+			isa = PBXGroup;
+			children = (
+				D04483271CCB968200A86F70 /* AppDelegate.h */,
+				D04483281CCB968200A86F70 /* AppDelegate.m */,
+				D044832A1CCB968200A86F70 /* ViewController.h */,
+				D044832B1CCB968200A86F70 /* ViewController.m */,
+				D044832D1CCB968200A86F70 /* Main.storyboard */,
+				D04483331CCB968300A86F70 /* Assets.xcassets */,
+				D04483351CCB968300A86F70 /* LaunchScreen.storyboard */,
+				D04483381CCB968300A86F70 /* Info.plist */,
+				D04483301CCB968200A86F70 /* Planets.xcdatamodeld */,
+				D04483241CCB968200A86F70 /* Supporting Files */,
+			);
+			path = Planets;
+			sourceTree = "<group>";
+		};
+		D04483241CCB968200A86F70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D04483251CCB968200A86F70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D04483201CCB968200A86F70 /* Planets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D044833B1CCB968300A86F70 /* Build configuration list for PBXNativeTarget "Planets" */;
+			buildPhases = (
+				D044831D1CCB968200A86F70 /* Sources */,
+				D044831E1CCB968200A86F70 /* Frameworks */,
+				D044831F1CCB968200A86F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Planets;
+			productName = Planets;
+			productReference = D04483211CCB968200A86F70 /* Planets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D04483191CCB968200A86F70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = FedorX;
+				TargetAttributes = {
+					D04483201CCB968200A86F70 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D044831C1CCB968200A86F70 /* Build configuration list for PBXProject "Planets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D04483181CCB968200A86F70;
+			productRefGroup = D04483221CCB968200A86F70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D04483201CCB968200A86F70 /* Planets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D044831F1CCB968200A86F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04483371CCB968300A86F70 /* LaunchScreen.storyboard in Resources */,
+				D04483341CCB968300A86F70 /* Assets.xcassets in Resources */,
+				D044832F1CCB968200A86F70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D044831D1CCB968200A86F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D044832C1CCB968200A86F70 /* ViewController.m in Sources */,
+				D04483291CCB968200A86F70 /* AppDelegate.m in Sources */,
+				D04483261CCB968200A86F70 /* main.m in Sources */,
+				D04483321CCB968200A86F70 /* Planets.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D044832D1CCB968200A86F70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D044832E1CCB968200A86F70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D04483351CCB968300A86F70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04483361CCB968300A86F70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D04483391CCB968300A86F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D044833A1CCB968300A86F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D044833C1CCB968300A86F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Planets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FedorX.Planets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D044833D1CCB968300A86F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Planets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FedorX.Planets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D044831C1CCB968200A86F70 /* Build configuration list for PBXProject "Planets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04483391CCB968300A86F70 /* Debug */,
+				D044833A1CCB968300A86F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D044833B1CCB968300A86F70 /* Build configuration list for PBXNativeTarget "Planets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D044833C1CCB968300A86F70 /* Debug */,
+				D044833D1CCB968300A86F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D04483301CCB968200A86F70 /* Planets.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D04483311CCB968200A86F70 /* Planets.xcdatamodel */,
+			);
+			currentVersion = D04483311CCB968200A86F70 /* Planets.xcdatamodel */;
+			path = Planets.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D04483191CCB968200A86F70 /* Project object */;
+}
