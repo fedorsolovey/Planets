@@ -55,7 +55,6 @@
             controller.planetEntity = [self itemAtIndexPath:self.selectedIndexPath];
         }
     }
-
 }
 
 - (Class)cellClass
