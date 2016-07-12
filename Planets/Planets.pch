@@ -1,0 +1,30 @@
+//
+//  Header.h
+//  Planets
+//
+//  Created by Fedor Solovev on 26.04.16.
+//  Copyright © 2016 FedorX. All rights reserved.
+//
+
+#ifndef Planets_pch
+#define Planets_pch
+
+#import <CoreData/CoreData.h>
+#import "AbstractEntity.h"
+
+#import "AbstractViewController.h"
+#import "AbstractTableViewController.h"
+
+#import "LocalDatastoreService.h"
+#import "ConfigurableCell.h"
+
+#import "BasicDefines.h"
+#import "CustomBlocks.h"
+
+#import "AppDelegate.h"
+
+#import "PlanetsEntity.h"
+#import "SatellitesEntity.h"
+#import "DescriptionEntity.h"
+
+#endif /* Header_h */

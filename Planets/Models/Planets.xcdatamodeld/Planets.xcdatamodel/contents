@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="AbstractEntity" representedClassName="AbstractEntity" isAbstract="YES" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="pk" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="DescriptionEntity" representedClassName="DescriptionEntity" parentEntity="AbstractEntity" syncable="YES">
+        <attribute name="diameter" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="period" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <relationship name="satellite" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SatellitesEntity" inverseName="descrp" inverseEntity="SatellitesEntity" syncable="YES"/>
+    </entity>
+    <entity name="PlanetsEntity" representedClassName="PlanetsEntity" parentEntity="AbstractEntity" syncable="YES">
+        <attribute name="number" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="satellites" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SatellitesEntity" inverseName="planet" inverseEntity="SatellitesEntity" syncable="YES"/>
+    </entity>
+    <entity name="SatellitesEntity" representedClassName="SatellitesEntity" parentEntity="AbstractEntity" syncable="YES">
+        <attribute name="discovery" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="descrp" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DescriptionEntity" inverseName="satellite" inverseEntity="DescriptionEntity" syncable="YES"/>
+        <relationship name="planet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanetsEntity" inverseName="satellites" inverseEntity="PlanetsEntity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AbstractEntity" positionX="-81" positionY="-0" width="128" height="88"/>
+        <element name="DescriptionEntity" positionX="558" positionY="95" width="128" height="103"/>
+        <element name="PlanetsEntity" positionX="-74" positionY="233" width="128" height="73"/>
+        <element name="SatellitesEntity" positionX="261" positionY="203" width="128" height="103"/>
+    </elements>
+</model>

@@ -7,27 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01281C11CCFD35700EA528E /* AbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01281C01CCFD35700EA528E /* AbstractViewController.m */; };
+		D01281C41CCFD37100EA528E /* AbstractTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01281C31CCFD37100EA528E /* AbstractTableViewController.m */; };
+		D01281CA1CCFDDE100EA528E /* LocalDatastoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = D01281C91CCFDDE100EA528E /* LocalDatastoreService.m */; };
 		D04483261CCB968200A86F70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D04483251CCB968200A86F70 /* main.m */; };
 		D04483291CCB968200A86F70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D04483281CCB968200A86F70 /* AppDelegate.m */; };
-		D044832C1CCB968200A86F70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D044832B1CCB968200A86F70 /* ViewController.m */; };
 		D044832F1CCB968200A86F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D044832D1CCB968200A86F70 /* Main.storyboard */; };
-		D04483321CCB968200A86F70 /* Planets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D04483301CCB968200A86F70 /* Planets.xcdatamodeld */; };
 		D04483341CCB968300A86F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04483331CCB968300A86F70 /* Assets.xcassets */; };
 		D04483371CCB968300A86F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04483351CCB968300A86F70 /* LaunchScreen.storyboard */; };
+		D047FE7E1CD4BFDE00BA7BED /* AbstractEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FE741CD4BFDE00BA7BED /* AbstractEntity+CoreDataProperties.m */; };
+		D047FE811CD4BFDE00BA7BED /* Planets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D047FE771CD4BFDE00BA7BED /* Planets.xcdatamodeld */; };
+		D047FE871CD4C88800BA7BED /* PlanetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FE861CD4C88800BA7BED /* PlanetsViewController.m */; };
+		D047FE8A1CD4CAE500BA7BED /* PlanetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FE891CD4CAE500BA7BED /* PlanetCell.m */; };
+		D047FE8D1CD4CE6800BA7BED /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FE8C1CD4CE6800BA7BED /* AddItemViewController.m */; };
+		D047FE8F1CD5ED3C00BA7BED /* PlanetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D047FE8E1CD5ED3C00BA7BED /* PlanetCell.xib */; };
+		D047FEA31CD923D400BA7BED /* AbstractEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FEA01CD923D400BA7BED /* AbstractEntity.m */; };
+		D047FEA41CD923D400BA7BED /* AbstractEntity+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FEA11CD923D400BA7BED /* AbstractEntity+Management.m */; };
+		D047FEA51CD923D400BA7BED /* AbstractEntity+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FEA21CD923D400BA7BED /* AbstractEntity+Search.m */; };
+		D047FEB21CD9245000BA7BED /* PlanetsEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FEA71CD9245000BA7BED /* PlanetsEntity+CoreDataProperties.m */; };
+		D047FEB31CD9245000BA7BED /* PlanetsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FEA91CD9245000BA7BED /* PlanetsEntity.m */; };
+		D047FEB61CD9245000BA7BED /* DescriptionEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FEAF1CD9245000BA7BED /* DescriptionEntity+CoreDataProperties.m */; };
+		D047FEB71CD9245000BA7BED /* DescriptionEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FEB11CD9245000BA7BED /* DescriptionEntity.m */; };
+		D047FEBA1CD92E9F00BA7BED /* AddSatelliteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FEB91CD92E9F00BA7BED /* AddSatelliteViewController.m */; };
+		D047FEBD1CD933F200BA7BED /* SatellitesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FEBC1CD933F200BA7BED /* SatellitesViewController.m */; };
+		D047FEC11CD9349F00BA7BED /* SatelliteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D047FEBF1CD9349F00BA7BED /* SatelliteCell.m */; };
+		D047FEC21CD9349F00BA7BED /* SatelliteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D047FEC01CD9349F00BA7BED /* SatelliteCell.xib */; };
+		D0AA4FA91CEA404E00C4011F /* DescriptionEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AA4FA81CEA404E00C4011F /* DescriptionEntity+CoreDataProperties.m */; };
+		D0AA4FAE1CEA40A200C4011F /* SatellitesEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AA4FAB1CEA40A200C4011F /* SatellitesEntity+CoreDataProperties.m */; };
+		D0AA4FAF1CEA40A200C4011F /* SatellitesEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AA4FAD1CEA40A200C4011F /* SatellitesEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D01281BF1CCFD35700EA528E /* AbstractViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractViewController.h; path = ViewControllers/AbstractViewController.h; sourceTree = "<group>"; };
+		D01281C01CCFD35700EA528E /* AbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractViewController.m; path = ViewControllers/AbstractViewController.m; sourceTree = "<group>"; };
+		D01281C21CCFD37100EA528E /* AbstractTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractTableViewController.h; path = ViewControllers/AbstractTableViewController.h; sourceTree = "<group>"; };
+		D01281C31CCFD37100EA528E /* AbstractTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractTableViewController.m; path = ViewControllers/AbstractTableViewController.m; sourceTree = "<group>"; };
+		D01281C61CCFD64500EA528E /* Planets.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planets.pch; sourceTree = "<group>"; };
+		D01281C81CCFDDE100EA528E /* LocalDatastoreService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalDatastoreService.h; path = Services/LocalDatastoreService.h; sourceTree = "<group>"; };
+		D01281C91CCFDDE100EA528E /* LocalDatastoreService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalDatastoreService.m; path = Services/LocalDatastoreService.m; sourceTree = "<group>"; };
+		D01281CD1CCFE10A00EA528E /* ConfigurableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigurableCell.h; path = Views/Cells/ConfigurableCell.h; sourceTree = "<group>"; };
 		D04483211CCB968200A86F70 /* Planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04483251CCB968200A86F70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D04483271CCB968200A86F70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D04483281CCB968200A86F70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D044832A1CCB968200A86F70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D044832B1CCB968200A86F70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D044832E1CCB968200A86F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D04483311CCB968200A86F70 /* Planets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Planets.xcdatamodel; sourceTree = "<group>"; };
 		D04483331CCB968300A86F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D04483361CCB968300A86F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D04483381CCB968300A86F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D047FE6E1CD4AA4300BA7BED /* CustomBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomBlocks.h; path = "Supporting Files/CustomBlocks.h"; sourceTree = "<group>"; };
+		D047FE6F1CD4ADC600BA7BED /* BasicDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicDefines.h; path = "Supporting Files/BasicDefines.h"; sourceTree = "<group>"; };
+		D047FE731CD4BFDE00BA7BED /* AbstractEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AbstractEntity+CoreDataProperties.h"; path = "Models/AbstractEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D047FE741CD4BFDE00BA7BED /* AbstractEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AbstractEntity+CoreDataProperties.m"; path = "Models/AbstractEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D047FE781CD4BFDE00BA7BED /* Planets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Planets.xcdatamodel; sourceTree = "<group>"; };
+		D047FE851CD4C88800BA7BED /* PlanetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlanetsViewController.h; path = ViewControllers/PlanetsViewController.h; sourceTree = "<group>"; };
+		D047FE861CD4C88800BA7BED /* PlanetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlanetsViewController.m; path = ViewControllers/PlanetsViewController.m; sourceTree = "<group>"; };
+		D047FE881CD4CAE500BA7BED /* PlanetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlanetCell.h; path = Views/Cells/PlanetCell.h; sourceTree = "<group>"; };
+		D047FE891CD4CAE500BA7BED /* PlanetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlanetCell.m; path = Views/Cells/PlanetCell.m; sourceTree = "<group>"; };
+		D047FE8B1CD4CE6800BA7BED /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddItemViewController.h; path = ViewControllers/AddItemViewController.h; sourceTree = "<group>"; };
+		D047FE8C1CD4CE6800BA7BED /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddItemViewController.m; path = ViewControllers/AddItemViewController.m; sourceTree = "<group>"; };
+		D047FE8E1CD5ED3C00BA7BED /* PlanetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlanetCell.xib; path = Views/Cells/PlanetCell.xib; sourceTree = "<group>"; };
+		D047FE9F1CD923D400BA7BED /* AbstractEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractEntity.h; path = Models/AbstractEntity.h; sourceTree = "<group>"; };
+		D047FEA01CD923D400BA7BED /* AbstractEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractEntity.m; path = Models/AbstractEntity.m; sourceTree = "<group>"; };
+		D047FEA11CD923D400BA7BED /* AbstractEntity+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AbstractEntity+Management.m"; path = "Models/AbstractEntity+Management.m"; sourceTree = "<group>"; };
+		D047FEA21CD923D400BA7BED /* AbstractEntity+Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AbstractEntity+Search.m"; path = "Models/AbstractEntity+Search.m"; sourceTree = "<group>"; };
+		D047FEA61CD9245000BA7BED /* PlanetsEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PlanetsEntity+CoreDataProperties.h"; path = "Models/PlanetsEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D047FEA71CD9245000BA7BED /* PlanetsEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PlanetsEntity+CoreDataProperties.m"; path = "Models/PlanetsEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D047FEA81CD9245000BA7BED /* PlanetsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlanetsEntity.h; path = Models/PlanetsEntity.h; sourceTree = "<group>"; };
+		D047FEA91CD9245000BA7BED /* PlanetsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlanetsEntity.m; path = Models/PlanetsEntity.m; sourceTree = "<group>"; };
+		D047FEAE1CD9245000BA7BED /* DescriptionEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DescriptionEntity+CoreDataProperties.h"; path = "Models/DescriptionEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D047FEAF1CD9245000BA7BED /* DescriptionEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DescriptionEntity+CoreDataProperties.m"; path = "Models/DescriptionEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D047FEB01CD9245000BA7BED /* DescriptionEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DescriptionEntity.h; path = Models/DescriptionEntity.h; sourceTree = "<group>"; };
+		D047FEB11CD9245000BA7BED /* DescriptionEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DescriptionEntity.m; path = Models/DescriptionEntity.m; sourceTree = "<group>"; };
+		D047FEB81CD92E9F00BA7BED /* AddSatelliteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddSatelliteViewController.h; path = ViewControllers/AddSatelliteViewController.h; sourceTree = "<group>"; };
+		D047FEB91CD92E9F00BA7BED /* AddSatelliteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddSatelliteViewController.m; path = ViewControllers/AddSatelliteViewController.m; sourceTree = "<group>"; };
+		D047FEBB1CD933F200BA7BED /* SatellitesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SatellitesViewController.h; path = ViewControllers/SatellitesViewController.h; sourceTree = "<group>"; };
+		D047FEBC1CD933F200BA7BED /* SatellitesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SatellitesViewController.m; path = ViewControllers/SatellitesViewController.m; sourceTree = "<group>"; };
+		D047FEBE1CD9349F00BA7BED /* SatelliteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SatelliteCell.h; path = Views/Cells/SatelliteCell.h; sourceTree = "<group>"; };
+		D047FEBF1CD9349F00BA7BED /* SatelliteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SatelliteCell.m; path = Views/Cells/SatelliteCell.m; sourceTree = "<group>"; };
+		D047FEC01CD9349F00BA7BED /* SatelliteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SatelliteCell.xib; path = Views/Cells/SatelliteCell.xib; sourceTree = "<group>"; };
+		D0AA4FA71CEA404E00C4011F /* DescriptionEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DescriptionEntity+CoreDataProperties.h"; path = "Models/DescriptionEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D0AA4FA81CEA404E00C4011F /* DescriptionEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DescriptionEntity+CoreDataProperties.m"; path = "Models/DescriptionEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D0AA4FAA1CEA40A200C4011F /* SatellitesEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SatellitesEntity+CoreDataProperties.h"; path = "Models/SatellitesEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D0AA4FAB1CEA40A200C4011F /* SatellitesEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SatellitesEntity+CoreDataProperties.m"; path = "Models/SatellitesEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D0AA4FAC1CEA40A200C4011F /* SatellitesEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SatellitesEntity.h; path = Models/SatellitesEntity.h; sourceTree = "<group>"; };
+		D0AA4FAD1CEA40A200C4011F /* SatellitesEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SatellitesEntity.m; path = Models/SatellitesEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +104,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D01281B71CCFD16C00EA528E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D047FE771CD4BFDE00BA7BED /* Planets.xcdatamodeld */,
+				D047FE701CD4BE2800BA7BED /* Properties */,
+				D047FE9F1CD923D400BA7BED /* AbstractEntity.h */,
+				D047FEA01CD923D400BA7BED /* AbstractEntity.m */,
+				D047FEA11CD923D400BA7BED /* AbstractEntity+Management.m */,
+				D047FEA21CD923D400BA7BED /* AbstractEntity+Search.m */,
+				D047FEA81CD9245000BA7BED /* PlanetsEntity.h */,
+				D047FEA91CD9245000BA7BED /* PlanetsEntity.m */,
+				D047FEB01CD9245000BA7BED /* DescriptionEntity.h */,
+				D047FEB11CD9245000BA7BED /* DescriptionEntity.m */,
+				D0AA4FAC1CEA40A200C4011F /* SatellitesEntity.h */,
+				D0AA4FAD1CEA40A200C4011F /* SatellitesEntity.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D01281B81CCFD1A300EA528E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D044832D1CCB968200A86F70 /* Main.storyboard */,
+				D04483351CCB968300A86F70 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		D01281C71CCFDDCD00EA528E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D01281C81CCFDDE100EA528E /* LocalDatastoreService.h */,
+				D01281C91CCFDDE100EA528E /* LocalDatastoreService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		D01281CB1CCFE0F300EA528E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D01281CC1CCFE0F800EA528E /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D01281CC1CCFE0F800EA528E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D01281CD1CCFE10A00EA528E /* ConfigurableCell.h */,
+				D047FE881CD4CAE500BA7BED /* PlanetCell.h */,
+				D047FE891CD4CAE500BA7BED /* PlanetCell.m */,
+				D047FE8E1CD5ED3C00BA7BED /* PlanetCell.xib */,
+				D047FEBE1CD9349F00BA7BED /* SatelliteCell.h */,
+				D047FEBF1CD9349F00BA7BED /* SatelliteCell.m */,
+				D047FEC01CD9349F00BA7BED /* SatelliteCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		D04483181CCB968200A86F70 = {
 			isa = PBXGroup;
 			children = (
@@ -62,13 +184,11 @@
 			children = (
 				D04483271CCB968200A86F70 /* AppDelegate.h */,
 				D04483281CCB968200A86F70 /* AppDelegate.m */,
-				D044832A1CCB968200A86F70 /* ViewController.h */,
-				D044832B1CCB968200A86F70 /* ViewController.m */,
-				D044832D1CCB968200A86F70 /* Main.storyboard */,
-				D04483331CCB968300A86F70 /* Assets.xcassets */,
-				D04483351CCB968300A86F70 /* LaunchScreen.storyboard */,
-				D04483381CCB968300A86F70 /* Info.plist */,
-				D04483301CCB968200A86F70 /* Planets.xcdatamodeld */,
+				D01281B71CCFD16C00EA528E /* Models */,
+				D01281CB1CCFE0F300EA528E /* Views */,
+				D04483411CCB9D9400A86F70 /* ViewControllers */,
+				D01281C71CCFDDCD00EA528E /* Services */,
+				D01281B81CCFD1A300EA528E /* Storyboard */,
 				D04483241CCB968200A86F70 /* Supporting Files */,
 			);
 			path = Planets;
@@ -77,9 +197,58 @@
 		D04483241CCB968200A86F70 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D04483331CCB968300A86F70 /* Assets.xcassets */,
+				D04483381CCB968300A86F70 /* Info.plist */,
 				D04483251CCB968200A86F70 /* main.m */,
+				D047FE6F1CD4ADC600BA7BED /* BasicDefines.h */,
+				D047FE6E1CD4AA4300BA7BED /* CustomBlocks.h */,
+				D01281C61CCFD64500EA528E /* Planets.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D04483411CCB9D9400A86F70 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D047FE841CD4C84D00BA7BED /* Abstract */,
+				D047FE851CD4C88800BA7BED /* PlanetsViewController.h */,
+				D047FE861CD4C88800BA7BED /* PlanetsViewController.m */,
+				D047FEBB1CD933F200BA7BED /* SatellitesViewController.h */,
+				D047FEBC1CD933F200BA7BED /* SatellitesViewController.m */,
+				D047FE8B1CD4CE6800BA7BED /* AddItemViewController.h */,
+				D047FE8C1CD4CE6800BA7BED /* AddItemViewController.m */,
+				D047FEB81CD92E9F00BA7BED /* AddSatelliteViewController.h */,
+				D047FEB91CD92E9F00BA7BED /* AddSatelliteViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D047FE701CD4BE2800BA7BED /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				D047FEAE1CD9245000BA7BED /* DescriptionEntity+CoreDataProperties.h */,
+				D047FEAF1CD9245000BA7BED /* DescriptionEntity+CoreDataProperties.m */,
+				D047FE731CD4BFDE00BA7BED /* AbstractEntity+CoreDataProperties.h */,
+				D047FE741CD4BFDE00BA7BED /* AbstractEntity+CoreDataProperties.m */,
+				D0AA4FA71CEA404E00C4011F /* DescriptionEntity+CoreDataProperties.h */,
+				D0AA4FA81CEA404E00C4011F /* DescriptionEntity+CoreDataProperties.m */,
+				D047FEA61CD9245000BA7BED /* PlanetsEntity+CoreDataProperties.h */,
+				D047FEA71CD9245000BA7BED /* PlanetsEntity+CoreDataProperties.m */,
+				D0AA4FAA1CEA40A200C4011F /* SatellitesEntity+CoreDataProperties.h */,
+				D0AA4FAB1CEA40A200C4011F /* SatellitesEntity+CoreDataProperties.m */,
+			);
+			name = Properties;
+			sourceTree = "<group>";
+		};
+		D047FE841CD4C84D00BA7BED /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				D01281BF1CCFD35700EA528E /* AbstractViewController.h */,
+				D01281C01CCFD35700EA528E /* AbstractViewController.m */,
+				D01281C21CCFD37100EA528E /* AbstractTableViewController.h */,
+				D01281C31CCFD37100EA528E /* AbstractTableViewController.m */,
+			);
+			name = Abstract;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +308,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D047FEC21CD9349F00BA7BED /* SatelliteCell.xib in Resources */,
 				D04483371CCB968300A86F70 /* LaunchScreen.storyboard in Resources */,
 				D04483341CCB968300A86F70 /* Assets.xcassets in Resources */,
 				D044832F1CCB968200A86F70 /* Main.storyboard in Resources */,
+				D047FE8F1CD5ED3C00BA7BED /* PlanetCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,10 +323,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D044832C1CCB968200A86F70 /* ViewController.m in Sources */,
 				D04483291CCB968200A86F70 /* AppDelegate.m in Sources */,
+				D047FEC11CD9349F00BA7BED /* SatelliteCell.m in Sources */,
+				D047FEA51CD923D400BA7BED /* AbstractEntity+Search.m in Sources */,
+				D047FEB31CD9245000BA7BED /* PlanetsEntity.m in Sources */,
+				D047FEB21CD9245000BA7BED /* PlanetsEntity+CoreDataProperties.m in Sources */,
+				D047FEB71CD9245000BA7BED /* DescriptionEntity.m in Sources */,
+				D047FE8A1CD4CAE500BA7BED /* PlanetCell.m in Sources */,
 				D04483261CCB968200A86F70 /* main.m in Sources */,
-				D04483321CCB968200A86F70 /* Planets.xcdatamodeld in Sources */,
+				D0AA4FAF1CEA40A200C4011F /* SatellitesEntity.m in Sources */,
+				D047FEA41CD923D400BA7BED /* AbstractEntity+Management.m in Sources */,
+				D047FEBD1CD933F200BA7BED /* SatellitesViewController.m in Sources */,
+				D047FEA31CD923D400BA7BED /* AbstractEntity.m in Sources */,
+				D047FEBA1CD92E9F00BA7BED /* AddSatelliteViewController.m in Sources */,
+				D0AA4FAE1CEA40A200C4011F /* SatellitesEntity+CoreDataProperties.m in Sources */,
+				D047FE871CD4C88800BA7BED /* PlanetsViewController.m in Sources */,
+				D047FE7E1CD4BFDE00BA7BED /* AbstractEntity+CoreDataProperties.m in Sources */,
+				D047FE811CD4BFDE00BA7BED /* Planets.xcdatamodeld in Sources */,
+				D047FEB61CD9245000BA7BED /* DescriptionEntity+CoreDataProperties.m in Sources */,
+				D0AA4FA91CEA404E00C4011F /* DescriptionEntity+CoreDataProperties.m in Sources */,
+				D01281C41CCFD37100EA528E /* AbstractTableViewController.m in Sources */,
+				D01281CA1CCFDDE100EA528E /* LocalDatastoreService.m in Sources */,
+				D01281C11CCFD35700EA528E /* AbstractViewController.m in Sources */,
+				D047FE8D1CD4CE6800BA7BED /* AddItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +457,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Planets/Planets.pch;
 				INFOPLIST_FILE = Planets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FedorX.Planets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,7 +471,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Planets/Planets.pch;
 				INFOPLIST_FILE = Planets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FedorX.Planets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,17 +500,19 @@
 				D044833D1CCB968300A86F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D04483301CCB968200A86F70 /* Planets.xcdatamodeld */ = {
+		D047FE771CD4BFDE00BA7BED /* Planets.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D04483311CCB968200A86F70 /* Planets.xcdatamodel */,
+				D047FE781CD4BFDE00BA7BED /* Planets.xcdatamodel */,
 			);
-			currentVersion = D04483311CCB968200A86F70 /* Planets.xcdatamodel */;
-			path = Planets.xcdatamodeld;
+			currentVersion = D047FE781CD4BFDE00BA7BED /* Planets.xcdatamodel */;
+			name = Planets.xcdatamodeld;
+			path = Models/Planets.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
